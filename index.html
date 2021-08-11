@@ -1,5 +1,7 @@
 <html>
 	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
 		<title>My First Web Application</title>
 		<style>
 			#paragraph_1 {
@@ -10,32 +12,69 @@
 			}
 			button:hover{
 				color:red;
+			}
+			
+			
 		</style>
 	</head>
 	<body>
-		<h1 name="abcd"> This is my first web application. Oh, I'm excited!!</h1>
-		<h6><b>I'm Learining HTML tags</b></h6>
+		<h1 name="abcd" style="color:violet"> This is my first web application. Oh, I'm excited!!</h1>
+		<h6 style="color:white"><b>I'm Learining HTML tags</b></h6>
 		<p id="paragraph_1" class="paragraph-1">Always a <b>good practice to add opening and closing tags first </b>,then write conent in between.</p>
-		<p id="paragraph_2" class="paragraph-1">Hello what happens when I have two paragraph elements!! </p>
-		<span>This is my first span element</span>
-		<span>This is my second span element</span>
+		<p id="paragraph_2" class="paragraph-1"style="color:white">Hello what happens when I have two paragraph elements!! </p>
+		<span style="color:white">This is my first span element</span>
+		<span style="color:white">This is my second span element</span>
 		<div class="testing-box">
 			<p style="color: red" id="paragraph_3" class="paragraph-1">This is my <span>div</span> and it is nested </p>
 		</div>
-		<img src="car.jpg" alt="car logo"/>
-		<a href="https://www.carlogos.org/" target="blank">Click me!</a>
+		<img src="car.jpg" alt="car logo"/style="color:white">
+		<a href="https://www.carlogos.org/" target="blank"style="color:blue">Click me!</a> 
 		<button>Click me!! </button>
-		<ul>
-			<li>Item 1</li>
-			<li>Item 2</li>
-			<li>Item 3</li>
+		<ul style="color:white">
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JAVASCRIPT</li>
 		</ul>
-		<ol type="I">
-			<li>Item 1</li>
-			<li>Item 2</li>
-			<li>Item 3</li>
-		</ol>
+		<ol type="1"style="color:white">
+			<li>JAVA</li>
+			<li>PYTHON</li>
+			<li>C++</li>
+		</ol><br><br>
+		<h2 style="color:white" align="center" bgcolor="red"> Calculator </h2><br>
+		<div id="container">
+			<div id="calculator">
+				<div id="result">
+					<div id="history">
+						<p id="history-value"></p>
+					</div>
+					<div id="output">
+						<p id="output-value"></p>
+					</div>
+				</div>
+				<div id="keyboard">
+					<button class="operator" id="clear">C</button>
+					<button class="operator" id="backspace">CE</button>
+					<button class="operator" id="%">%</button>
+					<button class="operator" id="/">&#247;</button>
+					<button class="number" id="7">7</button>
+					<button class="number" id="8">8</button>
+					<button class="number" id="9">9</button>
+					<button class="operator" id="*">&times;</button>
+					<button class="number" id="4">4</button>
+					<button class="number" id="5">5</button>
+					<button class="number" id="6">6</button>
+					<button class="operator" id="-">-</button>
+					<button class="number" id="1">1</button>
+					<button class="number" id="2">2</button>
+					<button class="number" id="3">3</button>
+					<button class="operator" id="+">+</button>
+					<button class="empty" id="empty"></button>
+					<button class="number" id="0">0</button>
+					<button class="empty" id="empty"></button>
+					<button class="operator" id="=">=</button>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
 	</body>
 </html>
-
-		 
